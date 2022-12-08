@@ -1,9 +1,10 @@
 {
-  "name": "gatsby-gitbook-boilerplate",
+  "name": "Tatacoa Wiki",
   "private": true,
-  "description": "Documentation, built with mdx",
-  "author": "Praveen <praveen@hasura.io> (@praveenweb)",
+  "description": "Documentation",
+  "author": "Tatacoa Bitcoin",
   "version": "0.0.1",
+  "homepage": "https://tatacoabitcoin.github.io/wiki/",
   "dependencies": {
     "@babel/plugin-proposal-export-default-from": "^7.12.13",
     "@emotion/react": "^11.1.5",
