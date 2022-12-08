@@ -1,6 +1,6 @@
 ---
 title: 'NextJS'
-metaTitle: 'Guías - NextJS
+metaTitle: 'Guías - NextJS'
 metaDescription: 'How-to guides'
 ---
 
