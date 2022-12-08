@@ -1,7 +1,7 @@
 const config = {
   gatsby: {
-    pathPrefix: '/',
-    siteUrl: 'https://hasura.io',
+    pathPrefix: '/wiki',
+    siteUrl: 'https://www.tatacoabitcoin.com/',
     gaTrackingId: null,
     trailingSlash: false,
   },
