@@ -1,29 +1,21 @@
 const config = {
   gatsby: {
     pathPrefix: '/wiki',
-    siteUrl: 'https://www.tatacoabitcoin.com/',
+    siteUrl: 'https://tatacoabitcoin.github.io/wiki/',
     gaTrackingId: null,
     trailingSlash: false,
   },
   header: {
-    logo: 'https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/brand.svg',
-    logoLink: 'https://hasura.io/learn/',
-    title:
-      "<a href='https://hasura.io/learn/'><img class='img-responsive' src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/learn-logo.svg' alt='Learn logo' /></a>",
-    githubUrl: 'https://github.com/hasura/gatsby-gitbook-boilerplate',
+    logo: '',
+    logoLink: 'https://www.tatacoabitcoin.com/',
+    title: '',
+    githubUrl: 'https://github.com/TatacoaBitcoin',
     helpUrl: '',
     tweetText: '',
     social: `<li>
-		    <a href="https://twitter.com/hasurahq" target="_blank" rel="noopener">
+		    <a href="https://twitter.com/TatacoaBitcoin" target="_blank" rel="noopener">
 		      <div class="twitterBtn">
 		        <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/twitter-brands-block.svg' alt={'Twitter'}/>
-		      </div>
-		    </a>
-		  </li>
-			<li>
-		    <a href="https://discordapp.com/invite/hasura" target="_blank" rel="noopener">
-		      <div class="discordBtn">
-		        <img src='https://graphql-engine-cdn.hasura.io/learn-hasura/assets/homepage/discord-brands-block.svg' alt={'Discord'}/>
 		      </div>
 		    </a>
 		  </li>`,
@@ -37,24 +29,20 @@ const config = {
     },
   },
   sidebar: {
-    forcedNavOrder: [
-      '/introduction', // add trailing slash if enabled above
-      '/codeblock',
-    ],
+    forcedNavOrder: ['/guides'],
     collapsedNav: [
-      '/codeblock', // add trailing slash if enabled above
+      '/guides', // add trailing slash if enabled above
     ],
-    links: [{ text: 'Hasura', link: 'https://hasura.io' }],
+    links: [{ text: '', link: '' }],
     frontLine: false,
     ignoreIndex: true,
-    title:
-      "<a href='https://hasura.io/learn/'>graphql </a><div class='greenCircle'></div><a href='https://hasura.io/learn/graphql/react/introduction/'>react</a>",
+    title: '',
   },
   siteMetadata: {
-    title: 'Gatsby Gitbook Boilerplate | Hasura',
-    description: 'Documentation built with mdx. Powering hasura.io/learn ',
+    title: 'Tatacoa Bitcoin Wiki',
+    description: 'Documentation',
     ogImage: null,
-    docsLocation: 'https://github.com/hasura/gatsby-gitbook-boilerplate/tree/master/content',
+    docsLocation: 'https://github.com/TatacoaBitcoin/wiki/tree/main/content',
     favicon: 'https://graphql-engine-cdn.hasura.io/img/hasura_icon_black.svg',
   },
   pwa: {
