@@ -19,9 +19,8 @@ server:
 
       location / {
     	try_files $uri $uri/ /index.html$is_args$args;
-
-}
-}
+      }
+    }
 
     ln -s /etc/nginx/sites-available/staging-btcpay-dashboard.tatacoabitcoin.com.conf /etc/nginx/sites-enabled/
     nginx -t && systemctl restart nginx

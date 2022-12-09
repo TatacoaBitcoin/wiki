@@ -29,7 +29,7 @@ const config = {
     },
   },
   sidebar: {
-    forcedNavOrder: ['/guides'],
+    forcedNavOrder: ['/docs', '/guides'],
     collapsedNav: [
       '/guides', // add trailing slash if enabled above
     ],

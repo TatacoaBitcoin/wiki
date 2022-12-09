@@ -105,7 +105,7 @@ const Header = ({ location, isDarkThemeActive, toggleActiveTheme }) => (
               </Link> */}
               <div className={'headerTitle displayInline'} />
               <a href="https://tatacoabitcoin.github.io/wiki/">
-                <h1 style={{ color: 'white' }}>Tatacoa Wiki</h1>
+                <h1 style={{ color: 'white' }}>Tatacoa Bitcoin Docs</h1>
               </a>
             </div>
             {config.header.social ? (
